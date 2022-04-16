@@ -64,7 +64,7 @@ function mouseUpEvente() {
 }
 
 function Draw() {
-
+    screen.style.cursor = 'crosshair'
     ctx.beginPath()
     ctx.lineWidth = sizeRow
     ctx.lineJoin = "round"
